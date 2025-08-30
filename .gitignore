@@ -1,0 +1,18 @@
+# --- Python & Cache/logs---
+__pycache__/
+*.log
+
+# --- Virtual env ---
+.venv/
+
+# --- Environment / secrets ---
+.env
+*.json
+token.json
+google_client_secret.json
+
+# --- OS ---
+.DS_Store
+
+# If you dump LLM outputs or cache:
+*.llm_cache/
