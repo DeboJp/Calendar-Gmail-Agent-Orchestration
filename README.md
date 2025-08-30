@@ -20,7 +20,12 @@ A simplified architecture image is provided below:
 - **Auto-email** on success: after a successful event create, attendees get a confirmation email by default (skip by saying “no email”).
 - **Optional availability**: only checked when asked.
 
+Final Product Example:
 ---
+On your side: Simple text email confirmation | Calendar shows event with local time adjustment.
+
+On attendee side:
+![Final](Final.png)
 
 ## Capabilities (brief)
 
