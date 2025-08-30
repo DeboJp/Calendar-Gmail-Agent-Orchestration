@@ -1,5 +1,7 @@
 # Calendar + Gmail — Agent Orchestration (w/ LangGraph and Ollama - Phi3:mini)
 
+An agent first calendar assistant that uses natural language for event confirmation.
+
 A focused, simple demo of an **agentic scheduling assistant** that turns natural-language requests into Google Calendar events and sends Gmail confirmations—driven by a constrained LLM policy and a minimal LangGraph workflow.
 
 **Overview**: the LLM picks a single next action; the server enforces confirmation and executes tools; user intent drives optional steps like availability; and successful writes trigger immediate attendee notifications.
